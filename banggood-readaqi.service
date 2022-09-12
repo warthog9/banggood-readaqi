@@ -1,0 +1,14 @@
+[Unit]
+Description=Banggood Read AQI data
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+WorkingDirectory=/root/git/banggood-readaqi
+ExecStart=/usr/bin/python3 /root/git/banggood-readaqi/readaqi.py
+
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
