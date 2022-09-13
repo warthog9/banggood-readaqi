@@ -5,7 +5,7 @@ https://usa.banggood.com/PM1_0-PM2_5-PM10-Meaturing-Module-Air-Quality-Dust-Sens
 The device has a PMS5003 attached to an MCU and it will, if you poke the USB port correctly, dump some of the PMS5003 data out the serial port.  This is obviously
 not an exhausitve list of the data that the PMS5003 provides, but it does work.
 
-== Noting command structure ==
+# Noting command structure
 
 The commands are not super well documented and in case they disappear from the Banggood listing I'm noting them here:
 
@@ -20,7 +20,7 @@ Response: {res:80,SendInteralTime:000020,StoreInteralTime:000000,WritePoint:0000
 
 {"fun":"03","clock":"20-09-14 18:53:56"}} - Set time to example
 
-== License ==
+# License
 MIT
 
 Copyright 2022 John 'Warthog9' Hawley
